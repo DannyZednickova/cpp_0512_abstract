@@ -1,5 +1,5 @@
 bin/CMakeFiles/main.dir/main.cpp.obj: \
- D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\bin\main.cpp \
+ D:\GITHUB\cpp_0512_abstract\bin\main.cpp \
  C:/mingw64/include/c++/13.2.0/iostream \
  C:/mingw64/include/c++/13.2.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/13.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -147,10 +147,10 @@ bin/CMakeFiles/main.dir/main.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/bits/ostream.tcc \
  C:/mingw64/include/c++/13.2.0/istream \
  C:/mingw64/include/c++/13.2.0/bits/istream.tcc \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/Vector/include/Vector.h \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/AbstractEuclideanVector/AbstractEuclideanVector.h \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/interface/VectorAddable.h \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/interface/VectorScalarable.h \
+ D:/GITHUB/cpp_0512_abstract/src/Vector/include/Vector.h \
+ D:/GITHUB/cpp_0512_abstract/src/AbstractEuclideanVector/AbstractEuclideanVector.h \
+ D:/GITHUB/cpp_0512_abstract/src/interface/VectorAddable.h \
+ D:/GITHUB/cpp_0512_abstract/src/interface/VectorScalarable.h \
  C:/mingw64/include/c++/13.2.0/cmath \
  C:/mingw64/x86_64-w64-mingw32/include/math.h \
  C:/mingw64/include/c++/13.2.0/bits/specfun.h \
@@ -167,7 +167,7 @@ bin/CMakeFiles/main.dir/main.cpp.obj: \
  C:/mingw64/include/c++/13.2.0/tr1/poly_hermite.tcc \
  C:/mingw64/include/c++/13.2.0/tr1/poly_laguerre.tcc \
  C:/mingw64/include/c++/13.2.0/tr1/riemann_zeta.tcc \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/Point/include/Point.h \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/AbstractEuclideanPoint/AbstractEuclideanPoint.h \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/interface/PointAddable.h \
- D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/interface/Substractable.h
+ D:/GITHUB/cpp_0512_abstract/src/Point/include/Point.h \
+ D:/GITHUB/cpp_0512_abstract/src/AbstractEuclideanPoint/AbstractEuclideanPoint.h \
+ D:/GITHUB/cpp_0512_abstract/src/interface/PointAddable.h \
+ D:/GITHUB/cpp_0512_abstract/src/interface/Substractable.h

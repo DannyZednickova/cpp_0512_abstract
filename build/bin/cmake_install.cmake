@@ -1,8 +1,8 @@
-# Install script for directory: D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/bin
+# Install script for directory: D:/GITHUB/cpp_0512_abstract/bin
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ut0512_test_funkcni_breakpoint")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cpp_0512_abstract")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

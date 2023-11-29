@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint
+CMAKE_SOURCE_DIR = D:\GITHUB\cpp_0512_abstract
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build
+CMAKE_BINARY_DIR = D:\GITHUB\cpp_0512_abstract\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\CMakeFiles D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector\\CMakeFiles\progress.marks
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\CMakeFiles 0
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\GITHUB\cpp_0512_abstract\build\CMakeFiles D:\GITHUB\cpp_0512_abstract\build\src\Vector\\CMakeFiles\progress.marks
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\GITHUB\cpp_0512_abstract\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/clean
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/preinstall
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/preinstall
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Vector/CMakeFiles/Vector.dir/rule:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/CMakeFiles/Vector.dir/rule
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/Vector/CMakeFiles/Vector.dir/rule
 .PHONY : src/Vector/CMakeFiles/Vector.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ Vector: src/Vector/CMakeFiles/Vector.dir/rule
 
 # fast build rule for target.
 Vector/fast:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/build
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/build
 .PHONY : Vector/fast
 
 Vector.obj: Vector.cpp.obj
@@ -134,7 +134,7 @@ Vector.obj: Vector.cpp.obj
 
 # target to build an object file
 Vector.cpp.obj:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj
 .PHONY : Vector.cpp.obj
 
 Vector.i: Vector.cpp.i
@@ -142,7 +142,7 @@ Vector.i: Vector.cpp.i
 
 # target to preprocess a source file
 Vector.cpp.i:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/Vector.cpp.i
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/Vector.cpp.i
 .PHONY : Vector.cpp.i
 
 Vector.s: Vector.cpp.s
@@ -150,7 +150,7 @@ Vector.s: Vector.cpp.s
 
 # target to generate assembly for a file
 Vector.cpp.s:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/Vector.cpp.s
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(MAKE) $(MAKESILENT) -f src\Vector\CMakeFiles\Vector.dir\build.make src/Vector/CMakeFiles/Vector.dir/Vector.cpp.s
 .PHONY : Vector.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\GITHUB\cpp_0512_abstract\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

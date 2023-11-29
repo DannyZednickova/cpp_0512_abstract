@@ -1,8 +1,8 @@
-# Install script for directory: D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src
+# Install script for directory: D:/GITHUB/cpp_0512_abstract/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ut0512_test_funkcni_breakpoint")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/cpp_0512_abstract")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/build/src/Vector/cmake_install.cmake")
+  include("D:/GITHUB/cpp_0512_abstract/build/src/Vector/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/build/src/Point/cmake_install.cmake")
+  include("D:/GITHUB/cpp_0512_abstract/build/src/Point/cmake_install.cmake")
 endif()
 

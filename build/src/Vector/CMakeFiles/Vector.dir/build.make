@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint
+CMAKE_SOURCE_DIR = D:\GITHUB\cpp_0512_abstract
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build
+CMAKE_BINARY_DIR = D:\GITHUB\cpp_0512_abstract\build
 
 # Include any dependencies generated for this target.
 include src/Vector/CMakeFiles/Vector.dir/depend.make
@@ -70,18 +70,18 @@ include src/Vector/CMakeFiles/Vector.dir/flags.make
 
 src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj: src/Vector/CMakeFiles/Vector.dir/flags.make
 src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj: src/Vector/CMakeFiles/Vector.dir/includes_CXX.rsp
-src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj: D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/Vector/Vector.cpp
+src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj: D:/GITHUB/cpp_0512_abstract/src/Vector/Vector.cpp
 src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj: src/Vector/CMakeFiles/Vector.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj -MF CMakeFiles\Vector.dir\Vector.cpp.obj.d -o CMakeFiles\Vector.dir\Vector.cpp.obj -c D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Vector\Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB\cpp_0512_abstract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj"
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Vector && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj -MF CMakeFiles\Vector.dir\Vector.cpp.obj.d -o CMakeFiles\Vector.dir\Vector.cpp.obj -c D:\GITHUB\cpp_0512_abstract\src\Vector\Vector.cpp
 
 src/Vector/CMakeFiles/Vector.dir/Vector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Vector.dir/Vector.cpp.i"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Vector\Vector.cpp > CMakeFiles\Vector.dir\Vector.cpp.i
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Vector && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GITHUB\cpp_0512_abstract\src\Vector\Vector.cpp > CMakeFiles\Vector.dir\Vector.cpp.i
 
 src/Vector/CMakeFiles/Vector.dir/Vector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Vector.dir/Vector.cpp.s"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Vector\Vector.cpp -o CMakeFiles\Vector.dir\Vector.cpp.s
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Vector && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GITHUB\cpp_0512_abstract\src\Vector\Vector.cpp -o CMakeFiles\Vector.dir\Vector.cpp.s
 
 # Object files for target Vector
 Vector_OBJECTS = \
@@ -93,19 +93,19 @@ Vector_EXTERNAL_OBJECTS =
 src/Vector/libVector.a: src/Vector/CMakeFiles/Vector.dir/Vector.cpp.obj
 src/Vector/libVector.a: src/Vector/CMakeFiles/Vector.dir/build.make
 src/Vector/libVector.a: src/Vector/CMakeFiles/Vector.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libVector.a"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector && $(CMAKE_COMMAND) -P CMakeFiles\Vector.dir\cmake_clean_target.cmake
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Vector.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\GITHUB\cpp_0512_abstract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libVector.a"
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Vector && $(CMAKE_COMMAND) -P CMakeFiles\Vector.dir\cmake_clean_target.cmake
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Vector && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Vector.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Vector/CMakeFiles/Vector.dir/build: src/Vector/libVector.a
 .PHONY : src/Vector/CMakeFiles/Vector.dir/build
 
 src/Vector/CMakeFiles/Vector.dir/clean:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector && $(CMAKE_COMMAND) -P CMakeFiles\Vector.dir\cmake_clean.cmake
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Vector && $(CMAKE_COMMAND) -P CMakeFiles\Vector.dir\cmake_clean.cmake
 .PHONY : src/Vector/CMakeFiles/Vector.dir/clean
 
 src/Vector/CMakeFiles/Vector.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Vector D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Vector\CMakeFiles\Vector.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GITHUB\cpp_0512_abstract D:\GITHUB\cpp_0512_abstract\src\Vector D:\GITHUB\cpp_0512_abstract\build D:\GITHUB\cpp_0512_abstract\build\src\Vector D:\GITHUB\cpp_0512_abstract\build\src\Vector\CMakeFiles\Vector.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/Vector/CMakeFiles/Vector.dir/depend
 

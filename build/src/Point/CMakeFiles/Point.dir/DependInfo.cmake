@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/Point/Point.cpp" "src/Point/CMakeFiles/Point.dir/Point.cpp.obj" "gcc" "src/Point/CMakeFiles/Point.dir/Point.cpp.obj.d"
+  "D:/GITHUB/cpp_0512_abstract/src/Point/Point.cpp" "src/Point/CMakeFiles/Point.dir/Point.cpp.obj" "gcc" "src/Point/CMakeFiles/Point.dir/Point.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

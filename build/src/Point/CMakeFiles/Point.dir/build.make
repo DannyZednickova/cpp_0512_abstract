@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint
+CMAKE_SOURCE_DIR = D:\GITHUB\cpp_0512_abstract
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build
+CMAKE_BINARY_DIR = D:\GITHUB\cpp_0512_abstract\build
 
 # Include any dependencies generated for this target.
 include src/Point/CMakeFiles/Point.dir/depend.make
@@ -70,18 +70,18 @@ include src/Point/CMakeFiles/Point.dir/flags.make
 
 src/Point/CMakeFiles/Point.dir/Point.cpp.obj: src/Point/CMakeFiles/Point.dir/flags.make
 src/Point/CMakeFiles/Point.dir/Point.cpp.obj: src/Point/CMakeFiles/Point.dir/includes_CXX.rsp
-src/Point/CMakeFiles/Point.dir/Point.cpp.obj: D:/PROGRAMOVANI/TRETAK/CPP/ut0512_test_funkcni_breakpoint/src/Point/Point.cpp
+src/Point/CMakeFiles/Point.dir/Point.cpp.obj: D:/GITHUB/cpp_0512_abstract/src/Point/Point.cpp
 src/Point/CMakeFiles/Point.dir/Point.cpp.obj: src/Point/CMakeFiles/Point.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Point/CMakeFiles/Point.dir/Point.cpp.obj"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Point/CMakeFiles/Point.dir/Point.cpp.obj -MF CMakeFiles\Point.dir\Point.cpp.obj.d -o CMakeFiles\Point.dir\Point.cpp.obj -c D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Point\Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\GITHUB\cpp_0512_abstract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Point/CMakeFiles/Point.dir/Point.cpp.obj"
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Point && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Point/CMakeFiles/Point.dir/Point.cpp.obj -MF CMakeFiles\Point.dir\Point.cpp.obj.d -o CMakeFiles\Point.dir\Point.cpp.obj -c D:\GITHUB\cpp_0512_abstract\src\Point\Point.cpp
 
 src/Point/CMakeFiles/Point.dir/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Point.dir/Point.cpp.i"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Point\Point.cpp > CMakeFiles\Point.dir\Point.cpp.i
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Point && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\GITHUB\cpp_0512_abstract\src\Point\Point.cpp > CMakeFiles\Point.dir\Point.cpp.i
 
 src/Point/CMakeFiles/Point.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Point.dir/Point.cpp.s"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Point\Point.cpp -o CMakeFiles\Point.dir\Point.cpp.s
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Point && C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\GITHUB\cpp_0512_abstract\src\Point\Point.cpp -o CMakeFiles\Point.dir\Point.cpp.s
 
 # Object files for target Point
 Point_OBJECTS = \
@@ -93,19 +93,19 @@ Point_EXTERNAL_OBJECTS =
 src/Point/libPoint.a: src/Point/CMakeFiles/Point.dir/Point.cpp.obj
 src/Point/libPoint.a: src/Point/CMakeFiles/Point.dir/build.make
 src/Point/libPoint.a: src/Point/CMakeFiles/Point.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libPoint.a"
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point && $(CMAKE_COMMAND) -P CMakeFiles\Point.dir\cmake_clean_target.cmake
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Point.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\GITHUB\cpp_0512_abstract\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libPoint.a"
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Point && $(CMAKE_COMMAND) -P CMakeFiles\Point.dir\cmake_clean_target.cmake
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Point && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Point.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Point/CMakeFiles/Point.dir/build: src/Point/libPoint.a
 .PHONY : src/Point/CMakeFiles/Point.dir/build
 
 src/Point/CMakeFiles/Point.dir/clean:
-	cd /d D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point && $(CMAKE_COMMAND) -P CMakeFiles\Point.dir\cmake_clean.cmake
+	cd /d D:\GITHUB\cpp_0512_abstract\build\src\Point && $(CMAKE_COMMAND) -P CMakeFiles\Point.dir\cmake_clean.cmake
 .PHONY : src/Point/CMakeFiles/Point.dir/clean
 
 src/Point/CMakeFiles/Point.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\src\Point D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point D:\PROGRAMOVANI\TRETAK\CPP\ut0512_test_funkcni_breakpoint\build\src\Point\CMakeFiles\Point.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\GITHUB\cpp_0512_abstract D:\GITHUB\cpp_0512_abstract\src\Point D:\GITHUB\cpp_0512_abstract\build D:\GITHUB\cpp_0512_abstract\build\src\Point D:\GITHUB\cpp_0512_abstract\build\src\Point\CMakeFiles\Point.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/Point/CMakeFiles/Point.dir/depend
 

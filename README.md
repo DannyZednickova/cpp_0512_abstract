@@ -1,1 +1,0 @@
-# cpp_0512_abstract

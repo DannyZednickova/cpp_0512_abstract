@@ -12,6 +12,10 @@ public:
         return Point(x + other.x, y + other.y);
     }
 
+    Point add(const Vector &other) const  {
+        return Point(x + other._x, y + other._y);
+    }
+
     Point subs(const Point &other) const override {
         return Point(x - other.x, y - other.y);
     }

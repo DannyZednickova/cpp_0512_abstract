@@ -17,7 +17,12 @@ Point p1 = Point(1,2);
 Point p2 = Point(3,4);
 
 float dist = p1.distancePoint(p2);
-cout << dist;
+cout << dist<< endl;
+
+
+Point point2 = Point(2, 10);
+Vector v1 = Vector(10,11);
+cout << point2.add(Vector(10, 0)) << std::endl;
 
 
 }
